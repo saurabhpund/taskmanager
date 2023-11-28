@@ -22,10 +22,10 @@ TaskMaster is a task management application built with React and Material-UI.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/taskmaster-app.git
+   git clone https://github.com/saurabhpund/taskmanager.git
 
 2. **Navigate to the project directory:**
-	 `cd taskmaster-app`
+	 `cd taskmaster`
 
 3. **Install dependencies:**
 	`npm install`
