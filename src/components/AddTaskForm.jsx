@@ -17,6 +17,7 @@ import ArrowIcon from "../Assets/arrow.png";
 
 const AddTaskForm = ({ handleAddTasks }) => {
   const [task, setTask] = useState({
+    id : Date.now(),
     name: "",
     description: "",
     priority: "",
@@ -44,7 +45,6 @@ const AddTaskForm = ({ handleAddTasks }) => {
     if (!validateForm()) {
       return;
     }
-
     handleAddTasks(task);
     setTask({ name: "", description: "", priority: "", complete: false });
     navigate("/");
