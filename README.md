@@ -61,3 +61,10 @@ Tasks are stored in the browser's local storage, allowing data persistence even 
 
 Material-UI is used for styling, providing a clean and responsive user interface.
 Responsive layout for a seamless experience on various devices.
+
+## Screenshot
+- Main Screen
+![Web App UI](https://github.com/saurabhpund/taskmanager/blob/main/src/Assets/Screenshot%20(2).png?raw=true)
+
+- Add Task Form
+![Add Task Form UI](https://github.com/saurabhpund/taskmanager/blob/main/src/Assets/Screenshot%20(3).png?raw=true)
