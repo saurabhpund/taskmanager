@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=DM+Serif+Display:regular,italic);
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.tab {
+  width: calc(100% - 24rem);
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.7rem;
+  gap: 10px;
+  position: fixed;
+  z-index: 2;
+  background-color: #fff;
+}
+
+.tab .dot {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.tab .dot:nth-of-type(2) {
+  background-color: yellow;
+}
+
+.tab .dot:nth-of-type(3) {
+  background-color: green;
+}
+
+.title {
+  font-family: "DM Serif Display", sans-serif !important;
+}
+
+.gif {
+  width: 100%;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #4a4a4a #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 14px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #4a4a4a;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
